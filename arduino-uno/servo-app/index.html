@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+    <link rel="stylesheet" href="/css/bootstrap.min.css">    
+        
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h4>Servo on Pin 10 PWM</h4>
+          <button id="servo-on" class="btn btn-primary btn-sm" type="submit">Servo On</button>
+          <button id="servo-off" class="btn btn-primary btn-sm" type="submit">Servo Off</button>
+        </div>
+      </div>                              
+    </div>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/bootstrap-colorpicker.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    
+    <script>
+      var socket = io();
+
+      $('#servo-on').click(function() {
+        console.log('servo on');
+        socket.emit('servo on', {state:true});
+      });
+      $('#servo-off').click(function() {
+        console.log('servo off');
+        socket.emit('servo off', {state:false});
+      });
+            
+    </script>  
+  </body>
+</html>

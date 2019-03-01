@@ -1,0 +1,122 @@
+# ---------------[ Unity generated ]------------------ #
+
+**/[Ll]ibrary/*
+**/[Tt]emp/*
+**/[Oo]bj/*
+**/[Bb]uild/*
+**/[Bb]uilds/*
+**/UnityGenerated/*
+**/Assets/AssetStoreTools*
+
+WIP.unity
+WIP.unity.meta
+ 
+# ----[ Visual Studio / MonoDevelop generated ]------- #
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.pidb.meta
+*.booproj
+*.svd
+
+# Visual Studio 2015 cache directory
+/.vs/
+ 
+# Unity3D Crash Reports
+sysinfo.txt
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+
+# Unity3D Generated File On Crash Reports
+sysinfo.txt
+
+# Unity3D Project Files and Folders
+Logs
+Packages
+
+# -------------[ macOS generated ]------------------------ #
+  
+# MacOS.gitignore
+# General
+.DS_Store
+ .DS_Store?
+ **/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+ios
+ios.app
+ 
+# include meta files
+!*.*.meta
+ 
+# Builds
+*.apk
+*.unitypackage
+
+# -------------[ Windows generated ]------------------------ #
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# -------------[ .gitignore ]------------------------ #
+
+WIP
+drafts
+CMMR_MagicLeap
+tutorials
+**/Assets/Standard\ Assets/*
+**/Assets/SampleScenes/*
+node_modules
+update
